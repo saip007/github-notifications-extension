@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.notification:last-child {
+  border-bottom: none;
+}
