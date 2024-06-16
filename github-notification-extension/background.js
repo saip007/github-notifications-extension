@@ -7,7 +7,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 });
 
 async function fetchNotifications() {
-  const githubToken = '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'; // Replace with your actual GitHub token
+  const githubToken = 'githubToken'; // Replace with your actual GitHub token
 
   try {
     const response = await fetch('https://api.github.com/notifications', {
