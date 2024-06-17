@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Notifications",
+  "version": "1.0",
+  "description": "Fetches and displays GitHub notifications directly in the browser.",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.github.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "saip4622@outlook.com",
+      "strict_min_version": "91.0"
+    }
+  }
+}
