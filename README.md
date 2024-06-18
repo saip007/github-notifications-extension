@@ -8,7 +8,7 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 
 - **Chrome:** Fully functional.
 - **Brave:** Fully functional.
-- **Firefox:** Compatibility coming soon.
+- **Firefox:** Fully functional.
 
 ## Features
 
@@ -34,7 +34,10 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 
 ### Firefox
 
-Compatibility with Firefox is currently under development and coming soon.
+1. Clone or download this repository.
+2. Open Firefox and navigate to `about:debugging`.
+3. Click on "This Firefox" in the sidebar.
+4. Click on "Load Temporary Add-on..." and select the `manifest.json` file from the extension directory.
 
 ## Usage
 
