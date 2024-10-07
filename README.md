@@ -8,7 +8,7 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 
 - **Chrome:** Fully functional.
 - **Brave:** Fully functional.
-- **Firefox:** Fully functional.
+- **Firefox:** TBD.
 
 ## Features
 
@@ -32,13 +32,6 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 3. Enable "Developer mode" in the top right corner.
 4. Click on "Load unpacked" and select the extension directory.
 
-### Firefox
-
-1. Clone or download this repository.
-2. Open Firefox and navigate to `about:debugging`.
-3. Click on "This Firefox" in the sidebar.
-4. Click on "Load Temporary Add-on..." and select the `manifest.json` file from the extension directory.
-
 ## Usage
 
 - Click on the extension icon to view your GitHub notifications.
@@ -48,7 +41,7 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 
 To customize or extend the extension:
 
-1. Modify the source files (`manifest.json`, `background.js`, `popup.html`, `popup.js`, `style.css`) as needed.
+1. Modify the source files (`manifest.json`, `background.js`, `index.html`, `scripts.js`, `style.css`) as needed.
 2. Test your changes locally.
 3. Commit your changes and push to your GitHub repository.
 
