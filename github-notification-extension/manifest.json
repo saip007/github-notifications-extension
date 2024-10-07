@@ -1,20 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "GitHub Notifications",
+  "name": "Github_Notifications",
   "version": "1.0",
-  "description": "Fetches and displays GitHub notifications directly in the browser.",
+  "description": "Displays GitHub notifications",
   "permissions": [
     "alarms",
+    "storage",
     "notifications",
-    "storage"
+    "activeTab"
   ],
   "host_permissions": [
-    "https://api.github.com/"
+    "https://api.github.com/*"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   }
 }
