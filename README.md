@@ -6,8 +6,8 @@ The GitHub Notifications Browser Extension fetches and displays GitHub notificat
 
 ## Status
 
-- **Chrome:** Fully functional.
-- **Brave:** Fully functional.
+- **Chrome:** TBD.
+- **Brave:** TBD.
 - **Firefox:** TBD.
 
 ## Features
