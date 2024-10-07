@@ -61,6 +61,14 @@ Contributions are welcome! If you find any issues or want to suggest enhancement
 - Push to the branch (`git push origin feature`)
 - Create a pull request
 
+Contribution Guidelines:
+
+- Please ensure that changes follow best practices for accessibility and usability.
+- Submit PRs with detailed descriptions of the changes made.
+- Ensure all PRs are tested and do not break existing functionality.
+
+Looking forward to your contributions during Hacktoberfest!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
